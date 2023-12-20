@@ -1,7 +1,7 @@
 
 package javaapplication3;
 
-public class Rahma {
+public class rahma {
 
    
     public static void main(String[] args) {
