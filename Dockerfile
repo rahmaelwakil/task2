@@ -1,6 +1,6 @@
 FROM openjdk
 WORKDIR /app
-COPY javaapplication3.java .
-RUN javac javaapplication3.java
-CMD java javaapplication3.java 
+COPY Rahma.java .
+RUN javac Rahma.java
+CMD java Rahma.java 
 
