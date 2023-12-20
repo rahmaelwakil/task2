@@ -15,8 +15,8 @@ jobs:
             
             - name: "testing github actions "
               run: pwd
-            - name: "testing printing "
-              run: echo rahma
+            - name: "testing content printing  "
+              run: ls
    
   
 
