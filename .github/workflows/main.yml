@@ -13,11 +13,9 @@ jobs:
             
   
             
-            - name: "testing github actions "
-              run: pwd
-            - name: "testing content printing  "
+            
+            - name: "before "
               run: ls
-   
-  
-
-
+            - uses: actions/checkout@v3
+            - name: "after  "
+              run: ls
